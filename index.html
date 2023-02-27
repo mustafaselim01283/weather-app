@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather App</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+ <nav class="min-nav">
+    <div class="container p-5  d-flex align-items-center  justify-content-between">
+        <div class="logo">
+            <a href="" class="d-flex align-items-center">
+                <img src="./logo@2x.png" class="me-2"  alt="cloud">
+               <div class="logo-cont">
+                <h5 class="text-white fw-bold mb-0">weather</h5>
+                <small class="text-secondary">tagline goes here</small>
+               </div>
+            </a>
+    
+        </div>
+        <div class="nav-sections w-50">
+            <ul class=" d-lg-flex justify-content-around mb-0 list-unstyled">
+                <li id="home"><a href="" >Home</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Live cameras</a></li>
+                <li><a href="">Photo</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+ </nav>
+ <header class="position-relative">
+   <div class="back position-absolute"></div>
+    <div class="layer w-100 h-100 ">
+        <div class="container text-center py-5 ">
+            <div class="form-inp py-4 position-relative  m-auto">
+                <input id="input" type="text" placeholder="find your location" class="w-100  rounded-pill p-4">
+                <input id="subm" type="submit" value="Find" class="find btn btn-primary px-4 py-2 rounded-pill position-absolute text-white">
+            </div>
+            
+            <div class="container bg-black  rounded-3   text-secondary overflow-hidden my-5">
+                <div class="row pb-3">
+                    <div class="curr col-lg-4  p-0 ">
+                       
+                    </div>
+                    <div class="next col-lg-4 text-center px-0 ">
+                       
+                    </div>
+                    <div class="after col-lg-4 text-center px-0 ">
+                       
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+   
+
+ </header>
+     <footer class="py-5">
+    <div class="container ">
+       <div class="d-lg-flex text-center justify-content-between align-items-center mb-4">
+        <div class="position-relative w-100 mb-3 me-5 ">
+            <input type="text" placeholder="Enter your email to subscrib..." class="w-100  rounded-pill p-4 foot-inp">
+            <input type="submit" value="subscribe" id="sub" class=" px-4 py-2 btn btn-primary  rounded-pill position-absolute text-white">
+        </div>
+        <div class="foot-icon text-primary d-flex me-5 pb-3 ">
+            <div  class="rounded-circle text-center ico"><i class="fab fa-facebook-f"></i></div>
+          <div class="rounded-circle text-center ico"><i class="fab fa-twitter"></i></div>  
+           <div class="rounded-circle text-center ico"><i class="fab fa-google-plus-g"></i></div> 
+           <div class="rounded-circle text-center ico"><i class="fab fab fa-pinterest"></i></div> 
+        </div>
+       </div>
+        <div>
+            <p class="text-secondary">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </div>
+ </footer>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
